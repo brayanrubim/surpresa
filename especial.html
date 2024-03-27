@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carta de Aniversário de Namoro</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .card {
+        margin: 50px auto;
+        padding: 20px;
+        max-width: 80%;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+    }
+    .hearts {
+        font-size: 10vw; /* tamanho responsivo */
+        color: red;
+        margin-bottom: 20px;
+    }
+    .letter {
+        display: inline-block;
+        font-size: 5vw; /* tamanho responsivo */
+        color: white;
+        position: relative;
+        top: -5vw; /* ajuste de posição */
+    }
+    #message {
+        display: none; /* esconde a mensagem inicialmente */
+    }
+</style>
+</head>
+<body>
+    <div class="card">
+        <div class="hearts">
+        &#10084;&#65039;&#10084;&#65039;&#10084;&#65039;
+            <div class="heart">BRENDA</div>
+          
+        </div>
+        <button id="revealButton">Clique aqui</button>
+        <div id="message">
+              <p>Oi meu amor,</p>
+            <p>Hoje celebramos dois anos incríveis juntos! É incrível como o tempo voou desde o nosso primeiro encontro, todo aquele frio na barriga e nervosismo para o primeiro encontro, vivendo tudo que há um ano atrás ficava sonhando em fazer contigo, mas sempre soube que realmente era você. Cada momento ao seu lado tem sido especial e cheio de amor, sentindo e vivendo coisas que jamais imaginei viver um dia.</p>
+            <p>Você é a minha felicidade, minha paz e toda minha motivação para cada dia passado, é um prazer enorme ter alguém como você ao meu lado e poder compartilhar de tudo em todos os momentos.</p>
+            <p>Que este seja apenas o começo de uma jornada ainda mais bonita e cheia de momentos inesquecíveis, que papai do céu nos abençoe cada vez mais e faça durar nossa relação por toda vida, pois você é a pessoa que quero comigo para sempre. Estou muito feliz por ter você ao meu lado.</p>
+            <p>   &#10084;&#65039;EU TE AMOOOOOO XUXUUUU!!!  &#10084;&#65039;</p>
+            <p>Com todo o meu amor,</p>
+            <p>Brayan, ou melhor, BRIANNNN</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('revealButton').addEventListener('click', function() {
+            document.getElementById('message').style.display = 'block';
+            document.getElementById('revealButton').style.display = 'none'; // esconde o botão após clicar
+        });
+    </script>
+</body>
+</html>
